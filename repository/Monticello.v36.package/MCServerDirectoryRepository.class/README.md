@@ -1,1 +1,1 @@
-directory on foos.gemstone.com
+directory on foos.gemtalksystems.com
