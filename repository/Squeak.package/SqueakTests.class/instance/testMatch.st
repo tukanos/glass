@@ -2,8 +2,8 @@ testing
 testMatch
 
 	| str1 pat |
-	self assert: ('#*@*.*'     match: 'dale.henrichs@gemstone.com').
-	self assert: ('#*@#*.#*'  match: 'dale.henrichs@gemstone.com').
+	self assert: ('#*@*.*'     match: 'dale.henrichs@gemtalksystems.com').
+	self assert: ('#*@#*.#*'  match: 'dale.henrichs@gemtalksystems.com').
 	self assert: ('*'			match: 'zort').
 	self assert: ('*baz'		match: 'mobaz').
 	self deny: ('*baz'		match: 'mobazo').
